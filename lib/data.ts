@@ -7,12 +7,12 @@ export const GENERAL_INFO = {
     emailBody: 'Hi Bhavith, I am reaching out to you because...',
 
   
-    upworkProfile: 'https://www.upwork.com/freelancers/tajmirul',
+    upworkProfile: 'https://www.upwork.com/freelancers/~01a5728428928c75e0',
 };
 
 export const SOCIAL_LINKS = [
-    { name: 'github', url: 'https://github.com/Tajmirul' },
-    { name: 'linkedin', url: 'https://www.linkedin.com/in/tajmirul' }
+    { name: 'github', url: 'https://github.com/Bhavithshetty22' },
+    { name: 'linkedin', url: 'https://www.linkedin.com/in/bhaviths22/' }
 ];
 
 export const MY_STACK = {
@@ -210,8 +210,8 @@ export const PROJECTS: IProject[] = [
 title: 'CrowdPilot AI',
 slug: 'crowdpilot',
 year: 2026,
-liveUrl: '',
-githubUrl: '',
+liveUrl: 'https://crowdpilot-ai-770467883959.us-central1.run.app',
+githubUrl: 'https://github.com/Bhavithshetty22/crowdroute',
 description: `
 CrowdPilot AI is a real-time crowd intelligence and optimization platform designed to improve safety and experience in large-scale environments like stadiums, events, and public spaces. <br/><br/>
 
