@@ -6,7 +6,7 @@ export const GENERAL_INFO = {
     emailSubject: "Let's collaborate on a project",
     emailBody: 'Hi Bhavith, I am reaching out to you because...',
 
-    oldPortfolio: 'https://www.legacy.me.toinfinite.dev',
+  
     upworkProfile: 'https://www.upwork.com/freelancers/tajmirul',
 };
 
@@ -132,8 +132,8 @@ export const PROJECTS: IProject[] = [
       'Express.js',
       'PostgreSQL',
     ],
-    thumbnail: '/projects/thumbnail/Vstudy.jpeg',
-    longThumbnail: '/projects/long/vstudy.jpg',
+    thumbnail: '/projects/long/vstudy1.png',
+    longThumbnail: '/projects/long/vstudy1.png',
     images: [],
   },
 
@@ -167,8 +167,8 @@ export const PROJECTS: IProject[] = [
       'API Integration',
       'AI Models',
     ],
-    thumbnail: '/projects/thumbnail/askora.jpg',
-    longThumbnail: '/projects/long/askora.jpg',
+    thumbnail: '/projects/long/askora1.png',
+    longThumbnail: '/projects/long/askora1.png',
     images: [],
   },
 
@@ -201,100 +201,99 @@ export const PROJECTS: IProject[] = [
       'Tailwind CSS',
       'Chart Libraries',
     ],
-    thumbnail: '/projects/thumbnail/fitsense.jpg',
-    longThumbnail: '/projects/long/fitsense.jpg',
+    thumbnail: '/projects/long/fitsense.png',
+    longThumbnail: '/projects/long/fitsense.png',
     images: [],
   },
+
+ {
+title: 'CrowdPilot AI',
+slug: 'crowdpilot',
+year: 2026,
+liveUrl: '',
+githubUrl: '',
+description: `
+CrowdPilot AI is a real-time crowd intelligence and optimization platform designed to improve safety and experience in large-scale environments like stadiums, events, and public spaces. <br/><br/>
+
+Unlike traditional dashboards, the system acts as a connected decision engine — continuously monitoring conditions, predicting risks, and suggesting actionable solutions in real time. <br/><br/>
+
+Key Features:
+
+  <ul>
+    <li>📍 Real-time crowd density and congestion monitoring</li>
+    <li>🚦 AI-powered route optimization to minimize wait times</li>
+    <li>⚠️ Intelligent risk detection with dynamic severity levels</li>
+    <li>🤖 Proactive AI recommendations based on live system state</li>
+    <li>🔄 Simulation engine to predict and test crowd scenarios</li>
+    <li>🔗 Fully connected system where AI, Risk, and Simulation interact seamlessly</li>
+  </ul>
+  `,
+  role: `
+  Full Stack Developer <br/>
+  <ul>
+    <li>🧠 Architected a Single Source of Truth system using Context API</li>
+    <li>⚡ Built a closed-loop intelligence system (Simulation → Risk → AI → Action)</li>
+    <li>🎨 Designed and developed a modern, responsive dashboard UI</li>
+    <li>🔄 Implemented real-time state synchronization across modules</li>
+    <li>🧪 Engineered robust error handling, retry logic, and edge-case stability</li>
+    <li>🚀 Optimized performance and ensured zero UI desynchronization</li>
+  </ul>
+  `,
+  techStack: [
+    'Next.js',
+    'TypeScript',
+    'React',
+    'Context API',
+    'Tailwind CSS',
+    'CSS Modules',
+  ],
+  thumbnail: '/projects/long/crowdpilot.png',
+  longThumbnail: '/projects/long/crowdpilot.png',
+  images: [
+    '/projects/long/crowdpilot.png'
+  ],
+}
+,
 
   {
-    title: 'Moodora',
-    slug: 'moodora',
-    year: 2024,
-    liveUrl: '',
-    description: `
-    Moodora is a mood-tracking and mental wellness application that helps users reflect on emotions and identify patterns over time. <br/><br/>
+title: 'Scholar AI',
+slug: 'scholar-ai',
+year: 2025,
+liveUrl: '',
+description: `
+Scholar AI is an intelligent academic assistant designed to help students quickly find, understand, and organize information efficiently. It leverages AI-driven search and structured responses to simplify learning and research workflows. <br/><br/>
 
-    Key Features:
-    <ul>
-      <li>😊 Daily mood logging with visual indicators</li>
-      <li>📊 Emotional trend analysis</li>
-      <li>🧠 Calm, empathetic UI design</li>
-      <li>🔒 Privacy-focused data handling</li>
-    </ul>
-    `,
-    role: `
-    Frontend Developer <br/>
-    <ul>
-      <li>🎨 Designed a soothing, user-friendly interface</li>
-      <li>📈 Implemented mood visualization and history tracking</li>
-      <li>🧩 Ensured accessibility and smooth UX</li>
-    </ul>
-    `,
-    techStack: [
-      'React',
-      'Tailwind CSS',
-      'State Management',
-    ],
-    thumbnail: '/projects/thumbnail/moodora.jpg',
-    longThumbnail: '/projects/long/moodora.jpg',
-    images: [],
-  },
+The platform focuses on delivering accurate, context-aware answers while maintaining a clean and intuitive user experience. <br/><br/>
 
-  {
-    title: 'Movie Recommendation System',
-    slug: 'movie-recommendation',
-    year: 2023,
-    liveUrl: '',
-    description: `
-    A movie recommendation platform that helps users discover films based on popularity and preferences using real-time API data. <br/><br/>
+Key Features:
 
-    Key Features:
-    <ul>
-      <li>🎬 Browse trending and popular movies</li>
-      <li>❤️ Add movies to favorites</li>
-      <li>🔍 Search functionality with live results</li>
-      <li>⚡ Real-time data fetching from external APIs</li>
-    </ul>
-    `,
-    role: `
-    Frontend Developer <br/>
-    <ul>
-      <li>🎨 Built UI using React with reusable components</li>
-      <li>🔗 Integrated third-party movie APIs</li>
-      <li>📱 Ensured responsive and smooth user experience</li>
-    </ul>
-    `,
-    techStack: [
-      'React',
-      'API Integration',
-      'CSS',
-    ],
-    thumbnail: '/projects/thumbnail/movie-rec.jpg',
-    longThumbnail: '/projects/long/movie-rec.jpg',
-    images: [],
-  },
-];
+  <ul>
+    <li>🔍 AI-powered search for academic queries</li>
+    <li>🧠 Context-aware responses for better understanding</li>
+    <li>📚 Structured information presentation for easy learning</li>
+    <li>⚡ Fast and responsive query handling</li>
+    <li>🎯 Clean UI designed for focused study sessions</li>
+  </ul>
+  `,
+  role: `
+  Frontend Developer <br/>
+  <ul>
+    <li>🎨 Designed and developed a clean, minimal UI for better usability</li>
+    <li>🔗 Integrated AI-based response system with frontend workflows</li>
+    <li>⚡ Optimized performance for fast and seamless interactions</li>
+    <li>📱 Built responsive layouts for multiple devices</li>
+  </ul>
+  `,
+  techStack: [
+    'React',
+    'API Integration',
+    'Tailwind CSS',
+  ],
+  thumbnail: '/projects/long/scholarai.png',
+  longThumbnail: '/projects/long/scholarai.png',
+  images: [
+    '/projects/long/scholarai.png'
+  ],
+}
 
-
-export const MY_EXPERIENCE = [
-    {
-        title: 'Software Engineer (Frontend)',
-        company: 'Strativ AB',
-        duration: 'Dec 2024 - Present',
-    },
-    {
-        title: 'Frontend Developer',
-        company: 'Epikcoders',
-        duration: 'Oct 2023 - Nov 2024',
-    },
-    {
-        title: 'Frontend Engineer',
-        company: 'Anchorblock Technology',
-        duration: 'Oct 2022 - Sep 2023',
-    },
-    {
-        title: 'Frontend Developer (Part-time)',
-        company: 'Branex IT',
-        duration: 'Jan 2022 - Oct 2022',
-    },
 ];

@@ -52,7 +52,7 @@ const Button = ({
     const variantClasses = {
         primary: `bg-primary text-primary-foreground  hover:bg-primary-hover`,
         secondary: `bg-secondary text-secondary-foreground hover:bg-secondary-hover`,
-        success: `bg-green-500 text-white hover:bg-green-600`,
+        success: `bg-purple-500 text-white hover:bg-purple-600`,
         warning: `bg-orange-500 text-white hover:bg-orange-600`,
         danger: `bg-destructive text-destructive-foreground hover:bg-destructive/70`,
         info: `bg-blue-500 text-white hover:bg-blue-600`,
